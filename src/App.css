@@ -16,25 +16,3 @@ body {
 }
 
 /**************** Custom Code *****************/
-
-#topStrip {
-  background-image: url("../src/assets/images/topstrip.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#topStripInner .offer {
-  font-family: var(--manrope-font);
-  font-weight: 600;
-  text-align: center;
-  margin: 10px 0;
-  font-size: 14px;
-}
-#topStripInner {
-  position: relative;
-}
-#topStripInner .cut {
-  position: absolute;
-  top: 0;
-  right: 0;
-}

@@ -1,7 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
-// import '.././styles/variables.css';
+import "../TopStrip/style.css";
 
 const TopStrip = () => {
+  const closeStrip = () => {
+    const topStrip = document.querySelector("#topStrip");
+    topStrip.style.display = "none";
+  };
+
   return (
     <div id="topStrip">
       <Container>
@@ -11,7 +16,7 @@ const TopStrip = () => {
               <p className="offer">
                 QUICK BUY! Get up to 25% off on All Stones
               </p>
-              <span className="cut">
+              <span className="close" onClick={closeStrip}>
                 <img src="../src/assets/images/icons/cut.svg" alt="" />
               </span>
             </div>

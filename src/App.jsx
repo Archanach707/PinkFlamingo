@@ -1,5 +1,5 @@
 // import * as React from "react";
-import TopStrip from "./Component/TopStrip";
+import Header from "./component/Header";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -7,7 +7,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 function App() {
   return (
     <>
-      <TopStrip />
+      <Header />
     </>
   );
 }

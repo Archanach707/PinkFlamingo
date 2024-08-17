@@ -1,12 +1,4 @@
-import {
-  Container,
-  Row,
-  Col,
-  Image,
-  Form,
-  Stack,
-  Button,
-} from "react-bootstrap";
+import { Container, Row, Col, Image, Form, Stack } from "react-bootstrap";
 import TopStrip from "../TopStrip";
 import "./style.css";
 
@@ -20,14 +12,23 @@ const Header = () => {
             <Col>
               <Image src="../src/assets/images/logo.svg" alt="" />
             </Col>
-            <Col>
+            <Col className="col-12 col-md-5 col-lg-6 order-last order-md-0 mt-3 mt-md-0">
               <Stack direction="horizontal">
-                <span className="location">Deliver to 110094</span>
+                <div className="location">
+                  <Image
+                    src="../src/assets/images/icons/location.svg"
+                    alt=""
+                    className="location-img"
+                  />
+                  <span>Deliver to 110094</span>
+                </div>
                 <Form.Control
                   className="me-auto"
                   placeholder="Search for medication & Wellness products.."
                 />
               </Stack>
+              {/* <div className="search-bar">
+              </div> */}
             </Col>
             <Col>
               <div id="icons">

@@ -1,12 +1,25 @@
-.hstack .location {
+.hstack {
+    position: relative;
+}
+
+.location {
     background-color: var(--primary-color);
     color: var(--white-color);
     font-family: var(--manrope-font);
     font-size: 12px;
     font-weight: 500;
     line-height: 16px;
-    padding: 5px 10px;
+    padding: 5px 8px;
     border-radius: 5px;
+    position: relative;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+}
+.location-img {
+    margin-right: 5px;
 }
 
 .user-icon {
@@ -14,13 +27,26 @@
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    padding: 5px;
+    padding: 8px;
     margin: 0 5px;
 }
 
 .sign-in {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 16px;
     margin-top: 5px;
+    margin-left: 5px;
+    color: var(--secondary-color);
+}
+
+.hstack input {
+    background: url(/assets/images/icons/search.svg) no-repeat 98% center;
+    /* border: none; */
+    /* font-family: Poppins; */
+    font-size: var(--base-font-size);
+    font-weight: 400;
+    padding: 6px 30px 6px 12px;
+    min-height: 48px;
+    width: 100%;
 }

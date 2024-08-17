@@ -2,6 +2,8 @@
 
 :root {
   --manrope-font: 'Manrope', sans-serif;
+  --primary-color: #FA5C98;
+  --white-color: #FFF;
 }
 
 body {
@@ -16,3 +18,9 @@ body {
 }
 
 /**************** Custom Code *****************/
+.icons {
+  width: 34px;
+  height: 34px;
+  padding: 5px;
+  margin: 0 5px;
+}

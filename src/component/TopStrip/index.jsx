@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import "../TopStrip/style.css";
 
 const TopStrip = () => {
@@ -17,7 +17,7 @@ const TopStrip = () => {
                 QUICK BUY! Get up to 25% off on All Stones
               </p>
               <span className="close" onClick={closeStrip}>
-                <img src="../src/assets/images/icons/cut.svg" alt="" />
+                <Image src="../src/assets/images/icons/close.svg" alt="" />
               </span>
             </div>
           </Col>

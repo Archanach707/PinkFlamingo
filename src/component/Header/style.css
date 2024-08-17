@@ -1,0 +1,26 @@
+.hstack .location {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-family: var(--manrope-font);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.user-icon {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.sign-in {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-top: 5px;
+}

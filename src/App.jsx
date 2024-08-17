@@ -2,18 +2,19 @@ import * as React from 'react';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { Button, Container, Row, Col } from 'react-bootstrap';
+import { Button, Container, Row, Col, Image } from 'react-bootstrap';
 
 function App() {
 
   return (
     <>
-    <div className='App'>
-        <h1>hello</h1>
-        <Button variant="primary">Primary</Button>{' '}
-        <Container>
+    <div id='topStrip' className='App'>
+      <Container>
         <Row>
-          <Col>1 of 1</Col>
+          <Col>
+            <p className='text-center my-2'>QUICK BUY! Get up to 25% off on All Stones</p>
+            <span><img src="../src/assets/images/icons/cut.svg" alt="" /></span>
+          </Col>
         </Row>
       </Container>
     </div>

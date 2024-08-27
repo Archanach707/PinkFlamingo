@@ -13,22 +13,25 @@ const Header = () => {
               <Image src="../src/assets/images/logo.svg" alt="" />
             </Col>
             <Col className="col-12 col-md-5 col-lg-6 order-last order-md-0 mt-3 mt-md-0">
-              <Stack direction="horizontal">
-                <div className="location">
-                  <Image
-                    src="../src/assets/images/icons/location.svg"
-                    alt=""
-                    className="location-img"
+              <div className="search-bar-wrap">
+                <Stack direction="horizontal">
+                  <div className="location">
+                    <Image
+                      src="../src/assets/images/icons/location.svg"
+                      alt=""
+                      className="location-img"
+                    />
+                    <span>Deliver to 110094</span>
+                  </div>
+                  <Form.Control
+                    className="me-auto search-bar-input"
+                    placeholder="Search for medication & Wellness products.."
                   />
-                  <span>Deliver to 110094</span>
-                </div>
-                <Form.Control
-                  className="me-auto"
-                  placeholder="Search for medication & Wellness products.."
-                />
-              </Stack>
-              {/* <div className="search-bar">
-              </div> */}
+                </Stack>
+                {/* <div className="search-bar">
+                  <Image src="../src/assets/images/icons/search.svg" alt="" />
+                </div> */}
+              </div>
             </Col>
             <Col>
               <div id="icons">

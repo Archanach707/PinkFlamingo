@@ -5,6 +5,8 @@
   --primary-color: #FA5C98;
   --secondary-color: #301F4A;
   --white-color: #FFF;
+
+  --base-font-size: 14px;
 }
 
 body {

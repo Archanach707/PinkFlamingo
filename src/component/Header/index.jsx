@@ -48,7 +48,9 @@ const Header = () => {
                     alt=""
                     className="user-icon"
                   />
-                  <span className="sign-in">SIGN IN / SIGN UP</span>
+                  <span className="sign-in d-md-inline-block d-none">
+                    SIGN IN / SIGN UP
+                  </span>
                 </span>
               </div>
             </Col>

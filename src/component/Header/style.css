@@ -52,10 +52,17 @@
     padding: 6px 30px 6px 18px;
     min-height: 48px;
     width: 100%;
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, #DC8064, #E98C70, #FB9E82, #FDBB9F, #FFCAAE, #F8AD92, #F19176);
+    border-image-slice: 1;
 }
 
 .search-bar {
     position: absolute;
     right: 10px;
     top: 10px;
+}
+
+#icons {
+    text-align: right;
 }

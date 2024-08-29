@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       <TopStrip />
-      <div id="Header" className="py-3">
+      <div id="Header" className="py-4">
         <Container>
           <Row>
             <Col>

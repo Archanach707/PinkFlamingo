@@ -1,0 +1,23 @@
+nav {
+    border-top: 1px solid #f6f6f6;
+}
+
+.nevigation {
+    width: 100%;
+}
+
+nav .nav-link {
+    color: #301F4A;
+    font-weight: 700;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    font-size: 18px !important;
+}
+
+nav .nav-link:active {
+    color: #FA5C98 !important;
+    font-weight: 700;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    font-size: 18px !important;
+}

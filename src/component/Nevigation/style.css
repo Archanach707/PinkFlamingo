@@ -6,7 +6,7 @@ nav {
     width: 100%;
 }
 
-nav .nav-link {
+nav .nevigation .nav-link {
     color: #301F4A;
     font-weight: 700;
     padding-left: 18px !important;
@@ -14,10 +14,45 @@ nav .nav-link {
     font-size: 18px !important;
 }
 
-nav .nav-link:active {
+nav .nevigation .nav-link.active,
+nav .nevigation .nav-link:active {
     color: #FA5C98 !important;
-    font-weight: 700;
-    padding-left: 18px !important;
-    padding-right: 18px !important;
-    font-size: 18px !important;
+}
+
+
+/* For dropdown menu */
+.dropdown .dropdown-menu {
+    display: none;
+}
+
+#basic-nav-dropdown2.nav-link {
+    font-weight: normal;
+}
+#basic-nav-dropdown2.nav-link:hover {
+    background-color: #FFEDF4 !important;
+}
+
+.dropend .dropdown-toggle {
+    color: #FA5C98 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #FFEDF4 !important;
+    color: #FA5C98 !important;
+}
+
+.dropdown-menu:hover>.dropdown-menu,
+.dropend-menu:hover>.dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+}
+
+
+@media (min-width: 769px) {
+    .dropend-menu:hover>.dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        margin-left: 0.125em;
+    }
 }

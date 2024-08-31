@@ -21,23 +21,40 @@ const Nevigation = () => {
                     className="dropend"
                   >
                     <NavDropdown.Item href="#action/2.1">
-                      Action
+                      Jar Cones
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#action/2.2">
-                      Another action
+                      Chandan Bamboo Dhoop
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#action/2.3">
-                      Something
+                      Backflow Cone Dhoop
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action/2.4">
+                      Buddha Red Incense Cone
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action/2.5">
+                      Ountain Sandal Dhoop
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action/2.6">
+                      Cone Sandal Dhoop
                     </NavDropdown.Item>
                   </NavDropdown>
                   <NavDropdown.Item href="#action/1.1">
-                    Action1
+                    Incense Holders
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#action/1.2">
-                    Action2
+                    Yantras
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#action/1.3">
-                    Action3
+                    Incense Sticks
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/1.4">
+                    Pooja Thali Sets
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/1.5">Shankh</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/1.6">Kalash</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/1.7">
+                    Book Rests
                   </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#3">Services</Nav.Link>
